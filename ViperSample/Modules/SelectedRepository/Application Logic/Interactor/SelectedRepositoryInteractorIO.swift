@@ -7,9 +7,9 @@
 //
 
 protocol SelectedRepositoryInteractorInput: class {
-
+    func viewIsReady()
 }
 
 protocol SelectedRepositoryInteractorOutput: class {
-
+    func result(repository: Repository)
 }

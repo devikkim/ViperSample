@@ -6,6 +6,8 @@
 //Copyright © 2019 InKwon Devik Kim. All rights reserved.
 //
 
+/// It's Interface for view
 protocol RepositoriesModuleInterface: class {
-    
+    func openSelectedRepository(repository: Repository)
+    func viewIsReady(userName: String)
 }

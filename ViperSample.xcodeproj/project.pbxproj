@@ -7,12 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		425DC22B878E584BCFC42B7C /* Pods_ViperSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DEB1D4FC92F6F034311918C /* Pods_ViperSample.framework */; };
+		5502D08C6955FF24B5D42AB2 /* Pods_ViperSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D089750D056DEE992EAC1DD8 /* Pods_ViperSampleTests.framework */; };
+		7301135E2243157000750C88 /* SelectedRepositoryModuleInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7301134B2243157000750C88 /* SelectedRepositoryModuleInterface.swift */; };
+		7301135F2243157000750C88 /* SelectedRepositoryServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7301134E2243157000750C88 /* SelectedRepositoryServiceType.swift */; };
+		730113602243157000750C88 /* SelectedRepositoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7301134F2243157000750C88 /* SelectedRepositoryService.swift */; };
+		730113612243157000750C88 /* SelectedRepositoryInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730113512243157000750C88 /* SelectedRepositoryInteractor.swift */; };
+		730113622243157000750C88 /* SelectedRepositoryInteractorIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730113522243157000750C88 /* SelectedRepositoryInteractorIO.swift */; };
+		730113632243157000750C88 /* SelectedRepositoryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730113552243157000750C88 /* SelectedRepositoryPresenter.swift */; };
+		730113642243157000750C88 /* SelectedRepositoryWireframeInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730113572243157000750C88 /* SelectedRepositoryWireframeInput.swift */; };
+		730113652243157000750C88 /* SelectedRepositoryWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730113582243157000750C88 /* SelectedRepositoryWireframe.swift */; };
+		730113662243157000750C88 /* SelectedRepositoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7301135B2243157000750C88 /* SelectedRepositoryViewController.swift */; };
+		730113672243157000750C88 /* SelectedRepository.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7301135C2243157000750C88 /* SelectedRepository.storyboard */; };
+		730113682243157000750C88 /* SelectedRepositoryViewInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7301135D2243157000750C88 /* SelectedRepositoryViewInterface.swift */; };
 		73E89D5122422249000FEBFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E89D5022422249000FEBFE /* AppDelegate.swift */; };
-		73E89D5322422249000FEBFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E89D5222422249000FEBFE /* ViewController.swift */; };
-		73E89D5622422249000FEBFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73E89D5422422249000FEBFE /* Main.storyboard */; };
 		73E89D582242224B000FEBFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73E89D572242224B000FEBFE /* Assets.xcassets */; };
 		73E89D5B2242224B000FEBFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73E89D592242224B000FEBFE /* LaunchScreen.storyboard */; };
 		73E89D662242224B000FEBFE /* ViperSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E89D652242224B000FEBFE /* ViperSampleTests.swift */; };
+		73E89D89224223A8000FEBFE /* RepositoriesModuleInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E89D76224223A8000FEBFE /* RepositoriesModuleInterface.swift */; };
+		73E89D8A224223A8000FEBFE /* RepositoriesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E89D79224223A8000FEBFE /* RepositoriesService.swift */; };
+		73E89D8B224223A8000FEBFE /* RepositoriesServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E89D7A224223A8000FEBFE /* RepositoriesServiceType.swift */; };
+		73E89D8C224223A8000FEBFE /* RepositoriesInteractorIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E89D7C224223A8000FEBFE /* RepositoriesInteractorIO.swift */; };
+		73E89D8D224223A8000FEBFE /* RepositoriesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E89D7D224223A8000FEBFE /* RepositoriesInteractor.swift */; };
+		73E89D8E224223A8000FEBFE /* RepositoriesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E89D80224223A8000FEBFE /* RepositoriesPresenter.swift */; };
+		73E89D8F224223A8000FEBFE /* RepositoriesWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E89D82224223A8000FEBFE /* RepositoriesWireframe.swift */; };
+		73E89D90224223A8000FEBFE /* RepositoriesWireframeInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E89D83224223A8000FEBFE /* RepositoriesWireframeInput.swift */; };
+		73E89D91224223A9000FEBFE /* RepositoriesViewInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E89D85224223A8000FEBFE /* RepositoriesViewInterface.swift */; };
+		73E89D92224223A9000FEBFE /* Repositories.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73E89D87224223A8000FEBFE /* Repositories.storyboard */; };
+		73E89D93224223A9000FEBFE /* RepositoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E89D88224223A8000FEBFE /* RepositoriesViewController.swift */; };
+		73E89D9622422445000FEBFE /* WireframeInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E89D9522422445000FEBFE /* WireframeInput.swift */; };
+		73E89D9A22422788000FEBFE /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E89D9922422788000FEBFE /* Repository.swift */; };
+		73E89D9D2242280B000FEBFE /* UIVIewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E89D9C2242280B000FEBFE /* UIVIewController+Ext.swift */; };
+		73E89DA02242341B000FEBFE /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E89D9F2242341B000FEBFE /* API.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +52,46 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4DEB1D4FC92F6F034311918C /* Pods_ViperSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViperSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65C0CC27D355C39B306EA5B5 /* Pods-ViperSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperSample.debug.xcconfig"; path = "Target Support Files/Pods-ViperSample/Pods-ViperSample.debug.xcconfig"; sourceTree = "<group>"; };
+		7301134B2243157000750C88 /* SelectedRepositoryModuleInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedRepositoryModuleInterface.swift; sourceTree = "<group>"; };
+		7301134E2243157000750C88 /* SelectedRepositoryServiceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedRepositoryServiceType.swift; sourceTree = "<group>"; };
+		7301134F2243157000750C88 /* SelectedRepositoryService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedRepositoryService.swift; sourceTree = "<group>"; };
+		730113512243157000750C88 /* SelectedRepositoryInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedRepositoryInteractor.swift; sourceTree = "<group>"; };
+		730113522243157000750C88 /* SelectedRepositoryInteractorIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedRepositoryInteractorIO.swift; sourceTree = "<group>"; };
+		730113552243157000750C88 /* SelectedRepositoryPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedRepositoryPresenter.swift; sourceTree = "<group>"; };
+		730113572243157000750C88 /* SelectedRepositoryWireframeInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedRepositoryWireframeInput.swift; sourceTree = "<group>"; };
+		730113582243157000750C88 /* SelectedRepositoryWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedRepositoryWireframe.swift; sourceTree = "<group>"; };
+		7301135B2243157000750C88 /* SelectedRepositoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedRepositoryViewController.swift; sourceTree = "<group>"; };
+		7301135C2243157000750C88 /* SelectedRepository.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SelectedRepository.storyboard; sourceTree = "<group>"; };
+		7301135D2243157000750C88 /* SelectedRepositoryViewInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedRepositoryViewInterface.swift; sourceTree = "<group>"; };
 		73E89D4D22422249000FEBFE /* ViperSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViperSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73E89D5022422249000FEBFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		73E89D5222422249000FEBFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		73E89D5522422249000FEBFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		73E89D572242224B000FEBFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73E89D5A2242224B000FEBFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73E89D5C2242224B000FEBFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73E89D612242224B000FEBFE /* ViperSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViperSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		73E89D652242224B000FEBFE /* ViperSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperSampleTests.swift; sourceTree = "<group>"; };
 		73E89D672242224B000FEBFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73E89D76224223A8000FEBFE /* RepositoriesModuleInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoriesModuleInterface.swift; sourceTree = "<group>"; };
+		73E89D79224223A8000FEBFE /* RepositoriesService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoriesService.swift; sourceTree = "<group>"; };
+		73E89D7A224223A8000FEBFE /* RepositoriesServiceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoriesServiceType.swift; sourceTree = "<group>"; };
+		73E89D7C224223A8000FEBFE /* RepositoriesInteractorIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoriesInteractorIO.swift; sourceTree = "<group>"; };
+		73E89D7D224223A8000FEBFE /* RepositoriesInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoriesInteractor.swift; sourceTree = "<group>"; };
+		73E89D80224223A8000FEBFE /* RepositoriesPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoriesPresenter.swift; sourceTree = "<group>"; };
+		73E89D82224223A8000FEBFE /* RepositoriesWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoriesWireframe.swift; sourceTree = "<group>"; };
+		73E89D83224223A8000FEBFE /* RepositoriesWireframeInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoriesWireframeInput.swift; sourceTree = "<group>"; };
+		73E89D85224223A8000FEBFE /* RepositoriesViewInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoriesViewInterface.swift; sourceTree = "<group>"; };
+		73E89D87224223A8000FEBFE /* Repositories.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Repositories.storyboard; sourceTree = "<group>"; };
+		73E89D88224223A8000FEBFE /* RepositoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoriesViewController.swift; sourceTree = "<group>"; };
+		73E89D9522422445000FEBFE /* WireframeInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WireframeInput.swift; sourceTree = "<group>"; };
+		73E89D9922422788000FEBFE /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		73E89D9C2242280B000FEBFE /* UIVIewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIVIewController+Ext.swift"; sourceTree = "<group>"; };
+		73E89D9F2242341B000FEBFE /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		84F392E2FB947D5FFE0B110B /* Pods-ViperSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperSampleTests.release.xcconfig"; path = "Target Support Files/Pods-ViperSampleTests/Pods-ViperSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		91ACDC3ECFEE040A9B573997 /* Pods-ViperSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperSample.release.xcconfig"; path = "Target Support Files/Pods-ViperSample/Pods-ViperSample.release.xcconfig"; sourceTree = "<group>"; };
+		958C3290DE07150DD2FEB6B6 /* Pods-ViperSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViperSampleTests.debug.xcconfig"; path = "Target Support Files/Pods-ViperSampleTests/Pods-ViperSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D089750D056DEE992EAC1DD8 /* Pods_ViperSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViperSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				425DC22B878E584BCFC42B7C /* Pods_ViperSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +107,120 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5502D08C6955FF24B5D42AB2 /* Pods_ViperSampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D29AD8D4B1623674800FB6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DEB1D4FC92F6F034311918C /* Pods_ViperSample.framework */,
+				D089750D056DEE992EAC1DD8 /* Pods_ViperSampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		730113492243157000750C88 /* SelectedRepository */ = {
+			isa = PBXGroup;
+			children = (
+				7301134A2243157000750C88 /* Module Interface */,
+				7301134C2243157000750C88 /* Application Logic */,
+				730113532243157000750C88 /* User Interface */,
+			);
+			path = SelectedRepository;
+			sourceTree = "<group>";
+		};
+		7301134A2243157000750C88 /* Module Interface */ = {
+			isa = PBXGroup;
+			children = (
+				7301134B2243157000750C88 /* SelectedRepositoryModuleInterface.swift */,
+			);
+			path = "Module Interface";
+			sourceTree = "<group>";
+		};
+		7301134C2243157000750C88 /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				7301134D2243157000750C88 /* Service */,
+				730113502243157000750C88 /* Interactor */,
+			);
+			path = "Application Logic";
+			sourceTree = "<group>";
+		};
+		7301134D2243157000750C88 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				7301134E2243157000750C88 /* SelectedRepositoryServiceType.swift */,
+				7301134F2243157000750C88 /* SelectedRepositoryService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		730113502243157000750C88 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				730113512243157000750C88 /* SelectedRepositoryInteractor.swift */,
+				730113522243157000750C88 /* SelectedRepositoryInteractorIO.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		730113532243157000750C88 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				730113542243157000750C88 /* Presenter */,
+				730113562243157000750C88 /* Wireframe */,
+				730113592243157000750C88 /* View */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		730113542243157000750C88 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				730113552243157000750C88 /* SelectedRepositoryPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		730113562243157000750C88 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				730113572243157000750C88 /* SelectedRepositoryWireframeInput.swift */,
+				730113582243157000750C88 /* SelectedRepositoryWireframe.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		730113592243157000750C88 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7301135A2243157000750C88 /* ViewModels */,
+				7301135B2243157000750C88 /* SelectedRepositoryViewController.swift */,
+				7301135C2243157000750C88 /* SelectedRepository.storyboard */,
+				7301135D2243157000750C88 /* SelectedRepositoryViewInterface.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7301135A2243157000750C88 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		73E89D4422422249000FEBFE = {
 			isa = PBXGroup;
 			children = (
 				73E89D4F22422249000FEBFE /* ViperSample */,
 				73E89D642242224B000FEBFE /* ViperSampleTests */,
 				73E89D4E22422249000FEBFE /* Products */,
+				F24EE06E9E3086DFB65850D4 /* Pods */,
+				1D29AD8D4B1623674800FB6D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,9 +236,12 @@
 		73E89D4F22422249000FEBFE /* ViperSample */ = {
 			isa = PBXGroup;
 			children = (
+				73E89D9E22423414000FEBFE /* API */,
+				73E89D9B224227FE000FEBFE /* Extensions */,
+				73E89D9722422778000FEBFE /* Entites */,
+				73E89D9422422431000FEBFE /* Protocol */,
+				73E89D7022422364000FEBFE /* Modules */,
 				73E89D5022422249000FEBFE /* AppDelegate.swift */,
-				73E89D5222422249000FEBFE /* ViewController.swift */,
-				73E89D5422422249000FEBFE /* Main.storyboard */,
 				73E89D572242224B000FEBFE /* Assets.xcassets */,
 				73E89D592242224B000FEBFE /* LaunchScreen.storyboard */,
 				73E89D5C2242224B000FEBFE /* Info.plist */,
@@ -96,6 +258,148 @@
 			path = ViperSampleTests;
 			sourceTree = "<group>";
 		};
+		73E89D7022422364000FEBFE /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				730113492243157000750C88 /* SelectedRepository */,
+				73E89D74224223A8000FEBFE /* Repositories */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		73E89D74224223A8000FEBFE /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				73E89D75224223A8000FEBFE /* Module Interface */,
+				73E89D77224223A8000FEBFE /* Application Logic */,
+				73E89D7E224223A8000FEBFE /* User Interface */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		73E89D75224223A8000FEBFE /* Module Interface */ = {
+			isa = PBXGroup;
+			children = (
+				73E89D76224223A8000FEBFE /* RepositoriesModuleInterface.swift */,
+			);
+			path = "Module Interface";
+			sourceTree = "<group>";
+		};
+		73E89D77224223A8000FEBFE /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				73E89D78224223A8000FEBFE /* Service */,
+				73E89D7B224223A8000FEBFE /* Interactor */,
+			);
+			path = "Application Logic";
+			sourceTree = "<group>";
+		};
+		73E89D78224223A8000FEBFE /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				73E89D79224223A8000FEBFE /* RepositoriesService.swift */,
+				73E89D7A224223A8000FEBFE /* RepositoriesServiceType.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		73E89D7B224223A8000FEBFE /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				73E89D7C224223A8000FEBFE /* RepositoriesInteractorIO.swift */,
+				73E89D7D224223A8000FEBFE /* RepositoriesInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		73E89D7E224223A8000FEBFE /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				73E89D7F224223A8000FEBFE /* Presenter */,
+				73E89D81224223A8000FEBFE /* Wireframe */,
+				73E89D84224223A8000FEBFE /* View */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		73E89D7F224223A8000FEBFE /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				73E89D80224223A8000FEBFE /* RepositoriesPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		73E89D81224223A8000FEBFE /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				73E89D82224223A8000FEBFE /* RepositoriesWireframe.swift */,
+				73E89D83224223A8000FEBFE /* RepositoriesWireframeInput.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		73E89D84224223A8000FEBFE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				73E89D85224223A8000FEBFE /* RepositoriesViewInterface.swift */,
+				73E89D86224223A8000FEBFE /* ViewModels */,
+				73E89D87224223A8000FEBFE /* Repositories.storyboard */,
+				73E89D88224223A8000FEBFE /* RepositoriesViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		73E89D86224223A8000FEBFE /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		73E89D9422422431000FEBFE /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				73E89D9522422445000FEBFE /* WireframeInput.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		73E89D9722422778000FEBFE /* Entites */ = {
+			isa = PBXGroup;
+			children = (
+				73E89D9922422788000FEBFE /* Repository.swift */,
+			);
+			path = Entites;
+			sourceTree = "<group>";
+		};
+		73E89D9B224227FE000FEBFE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				73E89D9C2242280B000FEBFE /* UIVIewController+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		73E89D9E22423414000FEBFE /* API */ = {
+			isa = PBXGroup;
+			children = (
+				73E89D9F2242341B000FEBFE /* API.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		F24EE06E9E3086DFB65850D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				65C0CC27D355C39B306EA5B5 /* Pods-ViperSample.debug.xcconfig */,
+				91ACDC3ECFEE040A9B573997 /* Pods-ViperSample.release.xcconfig */,
+				958C3290DE07150DD2FEB6B6 /* Pods-ViperSampleTests.debug.xcconfig */,
+				84F392E2FB947D5FFE0B110B /* Pods-ViperSampleTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +407,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 73E89D6A2242224B000FEBFE /* Build configuration list for PBXNativeTarget "ViperSample" */;
 			buildPhases = (
+				FC272F86CF13D4F375031E6A /* [CP] Check Pods Manifest.lock */,
 				73E89D4922422249000FEBFE /* Sources */,
 				73E89D4A22422249000FEBFE /* Frameworks */,
 				73E89D4B22422249000FEBFE /* Resources */,
+				ADA8F4AD83FC771BBE9680B7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,6 +426,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 73E89D6D2242224B000FEBFE /* Build configuration list for PBXNativeTarget "ViperSampleTests" */;
 			buildPhases = (
+				E741C5A21FA28A8A87C2EADD /* [CP] Check Pods Manifest.lock */,
 				73E89D5D2242224B000FEBFE /* Sources */,
 				73E89D5E2242224B000FEBFE /* Frameworks */,
 				73E89D5F2242224B000FEBFE /* Resources */,
@@ -178,8 +485,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				73E89D5B2242224B000FEBFE /* LaunchScreen.storyboard in Resources */,
+				730113672243157000750C88 /* SelectedRepository.storyboard in Resources */,
 				73E89D582242224B000FEBFE /* Assets.xcassets in Resources */,
-				73E89D5622422249000FEBFE /* Main.storyboard in Resources */,
+				73E89D92224223A9000FEBFE /* Repositories.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,13 +500,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		ADA8F4AD83FC771BBE9680B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ViperSample/Pods-ViperSample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-SwiftyJSON/Alamofire_SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire_SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ViperSample/Pods-ViperSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E741C5A21FA28A8A87C2EADD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ViperSampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC272F86CF13D4F375031E6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ViperSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		73E89D4922422249000FEBFE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73E89D5322422249000FEBFE /* ViewController.swift in Sources */,
+				73E89D93224223A9000FEBFE /* RepositoriesViewController.swift in Sources */,
+				730113652243157000750C88 /* SelectedRepositoryWireframe.swift in Sources */,
+				730113682243157000750C88 /* SelectedRepositoryViewInterface.swift in Sources */,
+				73E89D9622422445000FEBFE /* WireframeInput.swift in Sources */,
+				7301135E2243157000750C88 /* SelectedRepositoryModuleInterface.swift in Sources */,
+				730113622243157000750C88 /* SelectedRepositoryInteractorIO.swift in Sources */,
+				73E89D90224223A8000FEBFE /* RepositoriesWireframeInput.swift in Sources */,
+				730113602243157000750C88 /* SelectedRepositoryService.swift in Sources */,
+				73E89D9A22422788000FEBFE /* Repository.swift in Sources */,
+				730113632243157000750C88 /* SelectedRepositoryPresenter.swift in Sources */,
+				730113662243157000750C88 /* SelectedRepositoryViewController.swift in Sources */,
+				730113642243157000750C88 /* SelectedRepositoryWireframeInput.swift in Sources */,
+				73E89DA02242341B000FEBFE /* API.swift in Sources */,
+				73E89D9D2242280B000FEBFE /* UIVIewController+Ext.swift in Sources */,
+				73E89D8F224223A8000FEBFE /* RepositoriesWireframe.swift in Sources */,
+				73E89D91224223A9000FEBFE /* RepositoriesViewInterface.swift in Sources */,
+				73E89D8E224223A8000FEBFE /* RepositoriesPresenter.swift in Sources */,
+				73E89D8D224223A8000FEBFE /* RepositoriesInteractor.swift in Sources */,
 				73E89D5122422249000FEBFE /* AppDelegate.swift in Sources */,
+				7301135F2243157000750C88 /* SelectedRepositoryServiceType.swift in Sources */,
+				73E89D8A224223A8000FEBFE /* RepositoriesService.swift in Sources */,
+				73E89D89224223A8000FEBFE /* RepositoriesModuleInterface.swift in Sources */,
+				73E89D8B224223A8000FEBFE /* RepositoriesServiceType.swift in Sources */,
+				730113612243157000750C88 /* SelectedRepositoryInteractor.swift in Sources */,
+				73E89D8C224223A8000FEBFE /* RepositoriesInteractorIO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,14 +631,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		73E89D5422422249000FEBFE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				73E89D5522422249000FEBFE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		73E89D592242224B000FEBFE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -358,9 +760,11 @@
 		};
 		73E89D6B2242224B000FEBFE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65C0CC27D355C39B306EA5B5 /* Pods-ViperSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZF8NN25XW6;
 				INFOPLIST_FILE = ViperSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -375,9 +779,11 @@
 		};
 		73E89D6C2242224B000FEBFE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91ACDC3ECFEE040A9B573997 /* Pods-ViperSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZF8NN25XW6;
 				INFOPLIST_FILE = ViperSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -392,6 +798,7 @@
 		};
 		73E89D6E2242224B000FEBFE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 958C3290DE07150DD2FEB6B6 /* Pods-ViperSampleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -412,6 +819,7 @@
 		};
 		73E89D6F2242224B000FEBFE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84F392E2FB947D5FFE0B110B /* Pods-ViperSampleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

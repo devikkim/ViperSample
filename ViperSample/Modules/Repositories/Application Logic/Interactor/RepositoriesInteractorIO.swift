@@ -6,10 +6,15 @@
 //Copyright © 2019 InKwon Devik Kim. All rights reserved.
 //
 
-protocol RepositoriesInteractorInput: class {
 
+/// It's interface for interactor
+protocol RepositoriesInteractorInput: class {
+    func fetchRepositories(userName: String)
 }
 
+/// It's interface for presenter
 protocol RepositoriesInteractorOutput: class {
-
+    func result(model: [Repository])
+    func result(error: Error)
+    func result(panicError: Error)
 }

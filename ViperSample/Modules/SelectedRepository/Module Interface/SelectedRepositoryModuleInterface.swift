@@ -7,5 +7,5 @@
 //
 
 protocol SelectedRepositoryModuleInterface: class {
-    
+    func viewIsReady()
 }

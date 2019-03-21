@@ -27,5 +27,20 @@ class RepositoriesInteractor {
 // MARK: Repositories interactor input interface
 
 extension RepositoriesInteractor: RepositoriesInteractorInput {
+    func fetchRepositories(userName: String) {
+        self.service.fetchRepositories(userName: userName, success: {
+
+            self.output?.result(model: $0.array?.map{
+                let name = $0.dictionaryObject?["full_name"] as? String ?? ""
+                let url = $0.dictionaryObject?["svn_url"] as? String ?? ""
+                
+                return Repository(url: url, name: name)
+            } ?? [Repository]())
+            
+        }, failure: {
+            self.output?.result(error: $0)
+        })
+    }
+    
     
 }

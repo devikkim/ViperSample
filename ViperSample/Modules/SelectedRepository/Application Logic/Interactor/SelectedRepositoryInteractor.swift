@@ -14,11 +14,13 @@ class SelectedRepositoryInteractor {
     
     weak var output: SelectedRepositoryInteractorOutput?
     private let service: SelectedRepositoryServiceType
+    var repository: Repository?
     
     // MARK: Initialization
     
-    init(service: SelectedRepositoryServiceType) {
+    init(service: SelectedRepositoryServiceType, repository: Repository?) {
         self.service = service
+        self.repository = repository
     }
 
     // MARK: Converting entities
@@ -27,5 +29,9 @@ class SelectedRepositoryInteractor {
 // MARK: SelectedRepository interactor input interface
 
 extension SelectedRepositoryInteractor: SelectedRepositoryInteractorInput {
+    func viewIsReady() {
+        self.output?.result(repository: repository ?? Repository(url: "", name: ""))
+    }
+    
     
 }

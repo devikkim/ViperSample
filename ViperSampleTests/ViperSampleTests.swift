@@ -22,6 +22,18 @@ class ViperSampleTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        let service = RepositoriesService()
+        
+        let exp = expectation(description: "service_test")
+        service.fetchRepositories(success: {
+            print($0)
+            exp.fulfill()
+        }, failure: {
+            print($0)
+            exp.fulfill()
+        })
+        
+        wait(for: [exp], timeout: 5.0)
     }
 
     func testPerformanceExample() {

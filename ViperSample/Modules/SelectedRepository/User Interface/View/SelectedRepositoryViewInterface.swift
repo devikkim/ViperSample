@@ -7,5 +7,6 @@
 //
 
 protocol SelectedRepositoryViewInterface: class {
-    
+    func setModel(repository: Repository)
+    func showLoading()
 }

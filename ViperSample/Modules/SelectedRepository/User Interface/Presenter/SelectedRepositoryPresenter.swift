@@ -22,11 +22,18 @@ class SelectedRepositoryPresenter {
  // MARK: SelectedRepository module interface
 
 extension SelectedRepositoryPresenter: SelectedRepositoryModuleInterface {
-    
+    func viewIsReady() {
+        view?.showLoading()
+        interactor?.viewIsReady()
+    }
 }
 
 // MARK: SelectedRepository interactor output interface
 
 extension SelectedRepositoryPresenter: SelectedRepositoryInteractorOutput {
+    func result(repository: Repository) {
+        view?.setModel(repository: repository)
+    }
+    
     
 }

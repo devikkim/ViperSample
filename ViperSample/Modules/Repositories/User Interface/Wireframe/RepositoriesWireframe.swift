@@ -9,12 +9,15 @@
 import UIKit
 
 class RepositoriesWireframe {
-     weak var view: UIViewController!
+    weak var view: UIViewController!
+    private lazy var selectedRepositoryWireframe = SelectedRepositoryWireframe()
 }
 
 extension RepositoriesWireframe: RepositoriesWireframeInput {
-    
+
     var storyboardName: String {return "Repositories"}
+    
+    
     
     func getMainView() -> UIViewController {
         let service = RepositoriesService()
@@ -30,5 +33,11 @@ extension RepositoriesWireframe: RepositoriesWireframeInput {
         
         self.view = viewController
         return viewController
+    }
+    
+    func showRepositoryFromWebView(repository: Repository) {
+        if let navigation = view.navigationController {
+            selectedRepositoryWireframe.open(for: repository, in: navigation)
+        }
     }
 }

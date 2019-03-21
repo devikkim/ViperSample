@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+struct Repository {
+    let url: String
+    let name: String
+}

@@ -8,6 +8,7 @@
 
 import Foundation
 
+/// It's interface for presenter
 protocol RepositoriesWireframeInput: WireframeInput {
-    
+    func showRepositoryFromWebView(repository: Repository)
 }

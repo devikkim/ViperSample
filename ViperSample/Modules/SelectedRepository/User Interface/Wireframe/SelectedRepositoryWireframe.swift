@@ -9,7 +9,8 @@
 import UIKit
 
 class SelectedRepositoryWireframe {
-     weak var view: UIViewController!
+    weak var view: UIViewController!
+    var repository: Repository?
 }
 
 extension SelectedRepositoryWireframe: SelectedRepositoryWireframeInput {
@@ -18,7 +19,7 @@ extension SelectedRepositoryWireframe: SelectedRepositoryWireframeInput {
     
     func getMainView() -> UIViewController {
         let service = SelectedRepositoryService()
-        let interactor = SelectedRepositoryInteractor(service: service)
+        let interactor = SelectedRepositoryInteractor(service: service, repository: repository)
         let presenter = SelectedRepositoryPresenter()
         let viewController = viewControllerFromStoryboard(of: SelectedRepositoryViewController.self)
         
@@ -30,5 +31,10 @@ extension SelectedRepositoryWireframe: SelectedRepositoryWireframeInput {
         
         self.view = viewController
         return viewController
+    }
+    
+    func open(for repository: Repository, in source: UINavigationController) {
+        self.repository = repository
+        self.pushMainView(in: source)
     }
 }
