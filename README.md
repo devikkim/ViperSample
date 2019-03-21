@@ -19,3 +19,7 @@ An example Github search user's repositories app written in Swift using the VIPE
 The following pictures shows relationships and communication for one module.
 
 ![iOS VIPER GRAPH](/Images/ios_viper_graph.png "iOS VIPER GRAPH")
+
+## Features
+- [x] Viper Architecture
+- [ ] use rxswift
